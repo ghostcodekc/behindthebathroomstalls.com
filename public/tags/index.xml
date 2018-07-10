@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BehindTheBathroomStalls</title>
+    <link>http://behindthebathroomstalls.com/tags/</link>
+    <description>Recent content in Tags on BehindTheBathroomStalls</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    
+	<atom:link href="http://behindthebathroomstalls.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bathroom Art</title>
+      <link>http://behindthebathroomstalls.com/tags/bathroom-art/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>http://behindthebathroomstalls.com/tags/bathroom-art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Men Restroom Graffiti</title>
+      <link>http://behindthebathroomstalls.com/tags/men-restroom-graffiti/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>http://behindthebathroomstalls.com/tags/men-restroom-graffiti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restroom Graffiti</title>
+      <link>http://behindthebathroomstalls.com/tags/restroom-graffiti/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>http://behindthebathroomstalls.com/tags/restroom-graffiti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Womens Restroom Graffiti</title>
+      <link>http://behindthebathroomstalls.com/tags/womens-restroom-graffiti/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>http://behindthebathroomstalls.com/tags/womens-restroom-graffiti/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

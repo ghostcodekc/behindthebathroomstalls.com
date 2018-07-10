@@ -1,0 +1,60 @@
+baseURL = "http://behindthebathroomstalls.com/"
+languageCode = "en-us"
+title = "BehindTheBathroomStalls"
+email = "andrewmgrube@gmail.com"
+theme = "hugo-nederburg-theme-master"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "xandr00"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-109078200-1"
+preserveTaxonomyNames = false
+paginate = 5 #frontpage pagination
+
+[params]
+  slogan = "A comparison blog between men and women's restroom graffiti habits"
+  description = "A comparison blog between men and women's restroom graffiti habits" # meta description
+  author = "Andrew Grube"
+  authorLink = "https://andrewgrube.com"
+  bio = [
+    "Andrew is an avid blogger and the founder of <a href='https://behindthebathroomstalls.com'>Behind The Bathroom Stalls</a>. This is the author bio shown after posts."
+  ]
+  copyright = [
+    "&copy; 2018 BehindTheBathroomStalls",
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "andrewmgrube@gmail.com"
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Get in touch"
+  url = "contact/"
+  weight = 3
+
+  [params.social]
+  twitter       = "https://www.twitter.com/BehindTBS"
+  github        = "https://www.github.com/xAndr00"
+  rss           = true

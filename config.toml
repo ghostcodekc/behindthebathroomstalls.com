@@ -1,11 +1,11 @@
 baseURL = "http://behindthebathroomstalls.com/"
 languageCode = "en-us"
-title = "BehindTheBathroomStalls"
+title = "BEHINDTHEBATHROOMSTALLS"
 email = "andrewmgrube@gmail.com"
 theme = "hugo-nederburg-theme-master"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "xandr00"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-109078200-1"
 preserveTaxonomyNames = false

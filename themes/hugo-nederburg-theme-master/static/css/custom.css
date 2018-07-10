@@ -68,7 +68,7 @@ body {
   font-family: "raleway", sans-serif;
   line-height: 1.5;
   color: #4d4d4d;
-  background: #38312f;
+  background: #63cad0;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
   -ms-word-wrap: break-word;
@@ -82,7 +82,7 @@ body {
 }
 
 .main {
-  background: #38312f;
+  background: #63cad0;
   padding-bottom: 1.5em;
   margin: 0 auto;
 }
@@ -102,12 +102,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #38312f;
+  color: #63cad0;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 a:link {
-  color: #38312f;
+  color: #63cad0;
 }
 a:visited, a:hover, a:active, a:focus {
   color: black;
@@ -197,7 +197,7 @@ code {
 blockquote {
   margin: 1.5em 0;
   padding: 0 1.5em;
-  border-left: solid 0.75em #38312f;
+  border-left: solid 0.75em #63cad0;
 }
 blockquote cite {
   display: block;
@@ -325,7 +325,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #38312f;
+  background: #63cad0;
   color: white;
   max-width: 22.2em;
   min-width: 11.1em;
@@ -516,8 +516,8 @@ a img {
   height: 100%;
   width: 100%;
   z-index: 19;
-  background-image: -webkit-linear-gradient(#38312f 26px, transparent 24px, transparent 24px);
-  background-image: linear-gradient(#38312f 26px, transparent 24px, transparent 24px);
+  background-image: -webkit-linear-gradient(#63cad0 26px, transparent 24px, transparent 24px);
+  background-image: linear-gradient(#63cad0 26px, transparent 24px, transparent 24px);
   background-size: 1px 48px;
   /* this is a 24px baseline grid */
   text-align: center;
@@ -823,7 +823,7 @@ a img {
   color: #aaaaaa;
 }
 .excerpt-meta a:hover, .entry-meta a:hover, .excerpt-meta a:active, .entry-meta a:active, .excerpt-meta a:focus, .entry-meta a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 
 .excerpt-title, .entry-title {
@@ -839,7 +839,7 @@ a img {
   color: #4d4d4d;
 }
 .excerpt-title a:hover, .entry-title a:hover, .excerpt-title a:active, .entry-title a:active, .excerpt-title a:focus, .entry-title a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 
 .excerpt-header, .entry-header {
@@ -871,7 +871,7 @@ a img {
   color: #4d4d4d;
 }
 .more-link:hover, .more-link:active, .more-link:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 .more-link:hover:after, .more-link:active:after, .more-link:focus:after {
   -webkit-transform: scaleX(1);
@@ -1084,7 +1084,7 @@ a img {
 }
 
 .author-meta {
-  background: #38312f;
+  background: #63cad0;
   color: white;
   padding: 1.5em;
   margin: 3em 0 0;
@@ -1197,7 +1197,7 @@ a img {
   .entry .featured-image:after {
     position: absolute;
     content: '';
-    background: #38312f;
+    background: #63cad0;
     top: 0;
     bottom: 0;
     left: 0;
@@ -1330,7 +1330,7 @@ li.pingback:first-child {
   color: #4d4d4d;
 }
 .comment-author .author-name a:hover, .comment-author .author-name a:active, .comment-author .author-name a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 .comment-author:after {
   content: ".";
@@ -2324,28 +2324,28 @@ li.pingback:first-child {
   /* Search Icon */
 }
 .dark-header .site-title a {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-title a:link, .dark-header .site-title a:visited, .dark-header .site-title a:hover, .dark-header .site-title a:active, .dark-header .site-title a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .toggle-navigation {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header .site-description {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header .social-media-icons a {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header .social-media-icons a:link, .dark-header .site-header .social-media-icons a:visited {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header .social-media-icons a:hover, .dark-header .site-header .social-media-icons a:active, .dark-header .site-header .social-media-icons a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .toggle-secondary-navigation {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .menu-secondary-items a,
 .dark-header .menu-secondary-items a:link,
@@ -2353,10 +2353,10 @@ li.pingback:first-child {
 .dark-header .menu-secondary-items a:hover,
 .dark-header .menu-secondary-items a:active,
 .dark-header .menu-secondary-items a:focus {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header .search-form-container i {
-  color: #38312f;
+  color: #63cad0;
 }
 .dark-header .site-header.toggled .site-title a {
   color: white;
@@ -2374,7 +2374,7 @@ li.pingback:first-child {
 /* 600px */
 @media all and (min-width: 37.5em) {
   .dark-header .menu-secondary-items:before {
-    color: #38312f;
+    color: #63cad0;
   }
   .dark-header .menu-secondary-items ul {
     background: white;
@@ -2384,16 +2384,16 @@ li.pingback:first-child {
 @media all and (min-width: 50em) {
   .dark-header .menu-unset > ul a,
   .dark-header .menu-primary-items a {
-    color: #38312f;
+    color: #63cad0;
   }
   .dark-header .menu-unset > ul a:link, .dark-header .menu-unset > ul a:visited,
   .dark-header .menu-primary-items a:link,
   .dark-header .menu-primary-items a:visited {
-    color: #38312f;
+    color: #63cad0;
   }
   .dark-header .menu-unset > ul > li:after,
   .dark-header .menu-primary-items > li:after {
-    color: #38312f;
+    color: #63cad0;
   }
   .dark-header .menu-unset > ul ul,
   .dark-header .menu-primary-items ul {
@@ -2427,7 +2427,7 @@ li.pingback:first-child {
   background: rgba(255, 255, 255, 0.2);
 }
 .background-image-active .site-footer {
-  background: #38312f;
+  background: #63cad0;
 }
 
 /* background style textures */
@@ -2441,7 +2441,7 @@ li.pingback:first-child {
   border-color: transparent;
 }
 .background-texture-active .site-footer {
-  background: #38312f;
+  background: #63cad0;
 }
 .background-texture-active .top-navigation {
   background: rgba(255, 255, 255, 0.2);
@@ -2675,7 +2675,7 @@ li.pingback:first-child {
 }
 #wp-bbp_topic_content-editor-container textarea,
 #wp-bbp_reply_content-editor-container textarea {
-  outline: solid 1px #38312f;
+  outline: solid 1px #63cad0;
   margin-top: 1.5em !important;
 }
 
@@ -2689,7 +2689,7 @@ li.pingback:first-child {
 }
 
 .bbp-submit-wrapper button {
-  background: #38312f;
+  background: #63cad0;
   color: white;
   max-width: 22.2em !important;
   min-width: 11.1em;

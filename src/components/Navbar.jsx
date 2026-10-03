@@ -66,16 +66,18 @@ export default function Navbar({ activeTab, setActiveTab, onOpenSearch, onOpenSt
             </button>
           </div>
 
-          {/* Right: Search & Post Studio */}
+          {/* Right: Search & (Dev-only) Post Studio */}
           <div className="flex items-center gap-3">
-            <button
-              onClick={onOpenStudio}
-              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider text-gray-700 bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-colors"
-              title="Easy Post Studio - Write new markdown posts"
-            >
-              <PlusCircle className="w-3.5 h-3.5" />
-              <span>New Post</span>
-            </button>
+            {import.meta.env.DEV && (
+              <button
+                onClick={onOpenStudio}
+                className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider text-gray-700 bg-gray-100 hover:bg-gray-200 border border-gray-300 transition-colors"
+                title="Easy Post Studio - Write new markdown posts (Dev only)"
+              >
+                <PlusCircle className="w-3.5 h-3.5" />
+                <span>New Post</span>
+              </button>
+            )}
             
             <button
               onClick={onOpenSearch}
@@ -112,12 +114,14 @@ export default function Navbar({ activeTab, setActiveTab, onOpenSearch, onOpenSt
           >
             Submit A Post
           </a>
-          <button
-            onClick={() => { onOpenStudio(); setMobileMenuOpen(false); }}
-            className="block w-full text-left py-2 text-sm font-semibold uppercase tracking-wider text-gray-600 hover:text-black"
-          >
-            + New Post (Markdown Studio)
-          </button>
+          {import.meta.env.DEV && (
+            <button
+              onClick={() => { onOpenStudio(); setMobileMenuOpen(false); }}
+              className="block w-full text-left py-2 text-sm font-semibold uppercase tracking-wider text-gray-600 hover:text-black"
+            >
+              + New Post (Markdown Studio)
+            </button>
+          )}
         </div>
       )}
     </header>

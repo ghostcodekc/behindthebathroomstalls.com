@@ -25,6 +25,8 @@ export default function App() {
     const hash = window.location.hash.replace('#', '');
     if (hash === 'about') {
       setActiveTab('about');
+    } else if (hash === 'studio') {
+      setIsStudioOpen(true);
     } else if (hash.startsWith('post-')) {
       const slug = hash.replace('post-', '');
       const match = loaded.find((p) => p.slug === slug);

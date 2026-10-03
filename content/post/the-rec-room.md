@@ -7,8 +7,6 @@ image: "/assets/img/TheRecRoom_Cover.jpg"
 description: "The Rec Room is a roomy, easygoing hangout with vintage arcade games, table games, craft beer, & pizzas. It’s located in Memphis, TN"
 ---
 
-> The Rec Room is a roomy, easygoing hangout with vintage arcade games, table games, craft beer, & pizzas. It’s located in Memphis, TN
-
 ![The Rec Room Graffiti - Limbo Champion](/assets/img/TheRecRoom_LimboChampion.jpg)
 
 ![The Rec Room Graffiti - Sunday School](/assets/img/TheRecRoom_SundaeSchool.jpg)

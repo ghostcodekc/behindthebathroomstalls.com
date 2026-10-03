@@ -7,6 +7,4 @@ image: "/assets/img/milktoothcover.jpg"
 description: "Milktooth is a Hip, modern diner serving espresso, cocktails & inventive breakfast & brunch items."
 ---
 
-> Milktooth is a Hip, modern diner serving espresso, cocktails & inventive breakfast & brunch items.
-
 ![Milktooth Bathroom Graffiti](/assets/img/milktoothimg1.jpg)

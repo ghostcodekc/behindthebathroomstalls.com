@@ -8,8 +8,4 @@ description: "Hank’s Saloon has a honky-tonk vibe & regular live music. Draw a
 credit: "@william_ruben_helms on Instagram"
 ---
 
-> Hank’s Saloon has a honky-tonk vibe & regular live music. Draw a crowd to this dark, black-painted watering hole.
-
 ![Hank's Saloon Graffiti](/assets/img/HanksSaloon_Bathroom-Door.jpg)
-
-Photo Credit: @william_ruben_helms on Instagram.

@@ -86,7 +86,7 @@ export default function PostModal({ post, onClose, onSelectPost, allPosts }) {
               <time>{post.displayDate}</time>
             </div>
             {post.description && (
-              <p className="text-base sm:text-lg text-gray-600 font-['Lato'] leading-relaxed pt-1">
+              <p className="text-sm text-gray-600 font-['Lato'] leading-relaxed pt-1">
                 {post.description}
               </p>
             )}

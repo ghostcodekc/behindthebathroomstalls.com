@@ -1,36 +1,17 @@
-+++
-date = "2016-11-05T21:05:33+05:30"
-title = "About me"
-+++
+---
+title: "About"
+date: "2018-04-24T05:32:20-05:00"
+image: "/assets/img/andrew-face.jpg"
+---
 
-I’m a Technical Consultant working for DSI in downtown Kansas City, Missouri with 5 years of experience in IT. I am proficient in Windows and Linux operating systems and implementing AWS infrastructures with an emphasis on high availability, cost-effective, fault-tolerant systems.
+My name is Andrew Grube. I’m a Cloud Engineer working in downtown Kansas City, Missouri. I also run this blog!
 
-![This is me][1]
+Behind The Bathroom Stalls is an exploration of the humor, culture, and unfiltered thoughts scribbled on restroom walls across bars, diners, and venues.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+### Connect
 
-#### Expertise:
-***
-
-###### Professionally driven
-* Results-oriented analytical skills to determine customized, effective solutions to meet stated objectives and goals.
-
-###### Organisation
-* Accurately documenting issue resolutions, creating software defect reports, and enhancement requests as appropriate.
-
-###### Creativity & Adaptability
-* Being adaptable and flexible has enabled me to challenge conventional ways of working and learn new and more efficient and creative techniques and diverse workstyle.
-
-###### Cloud Experience
-* Troubleshooting dynamic custom hardware solutions including solutions in AWS.
-
-
-Here are some ways to find me online:
-
-* [My Facebook](https://www.facebook.com/andrewgrube)
-* [My Twitter](https://www.twitter.com/ThrownJupiter)
-* [Personal Website](https://www.andrewgrube.com)
-
-
-
-[1]: /img/me.jpg
+- [Personal Website](http://andrewgrube.com)
+- [LinkedIn](https://in.linkedin.com/in/andrew-grube-74124821/)
+- [GitHub](http://github.com/ThrownJupiter)
+- [Twitter](https://twitter.com/ThrownJupiter)
+- [Instagram](https://instagram.com/ThrownJupiter)

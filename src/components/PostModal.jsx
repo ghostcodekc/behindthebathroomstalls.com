@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { X, ArrowLeft, ArrowRight, Share2, Check, Globe } from 'lucide-react';
-import { TwitterIcon, FacebookIcon, GithubIcon } from './SocialIcons';
+import { X, ArrowLeft, ArrowRight, Share2, Check } from 'lucide-react';
+import { TwitterIcon, FacebookIcon } from './SocialIcons';
 
 export default function PostModal({ post, onClose, onSelectPost, allPosts }) {
   const [copied, setCopied] = React.useState(false);
@@ -127,51 +127,6 @@ export default function PostModal({ post, onClose, onSelectPost, allPosts }) {
               </button>
             </div>
           </div>
-
-          {/* Author Box (matching exact S3 layout) */}
-          <section className="mt-12 p-6 sm:p-8 bg-[#fafafa] border border-gray-200 rounded-sm flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
-            <img
-              src="/assets/img/andrew-face.jpg"
-              alt="Andrew Grube"
-              className="w-20 h-20 rounded-full object-cover border-2 border-gray-300 shrink-0"
-              onError={(e) => { e.currentTarget.style.display = 'none'; }}
-            />
-            <div className="space-y-2">
-              <h2 className="text-lg font-bold text-gray-900 font-['Montserrat']">Andrew Grube</h2>
-              <p className="text-sm text-gray-600 leading-relaxed font-['Lato']">
-                My name is Andrew Grube. I’m a Cloud Engineer working in downtown Kansas City, Missouri. I also run this blog!
-              </p>
-              <div className="flex items-center justify-center sm:justify-start gap-3 pt-1">
-                <a
-                  href="http://andrewgrube.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-500 hover:text-black transition-colors"
-                  title="Website"
-                >
-                  <Globe className="w-4 h-4" />
-                </a>
-                <a
-                  href="https://twitter.com/@ThrownJupiter"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-500 hover:text-black transition-colors"
-                  title="Twitter"
-                >
-                  <TwitterIcon className="w-4 h-4" />
-                </a>
-                <a
-                  href="http://github.com/ThrownJupiter"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-500 hover:text-black transition-colors"
-                  title="GitHub"
-                >
-                  <GithubIcon className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-          </section>
 
           {/* Recent Posts Section (matching S3 recent-box) */}
           {recentPosts.length > 0 && (

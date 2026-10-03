@@ -116,7 +116,7 @@ export function parsePostMarkdown(rawContent, filePath = '') {
   } else {
     // Take first paragraph
     const firstPara = fullBody.split(/\r?\n\r?\n/)[0] || '';
-    excerpt = firstPara.replace(/[#*`>]/g, '').trim().slice(0, 160);
+    excerpt = firstPara.replace(/[#*`>]/g, '').trim();
   }
 
   // Extract photo credit from body if not explicit in meta

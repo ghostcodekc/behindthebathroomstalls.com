@@ -26,6 +26,14 @@ export default function PostModal({ post, onClose, onSelectPost, allPosts }) {
 
   const recentPosts = allPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
+  // If the body starts with a blockquote repeating the description, deduplicate it
+  let contentHtml = post.html || '';
+  if (post.description) {
+    const cleanDesc = post.description.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`^\\s*<blockquote[^>]*>\\s*<p>\\s*${cleanDesc}\\s*<\\/p>\\s*<\\/blockquote>`, 'i');
+    contentHtml = contentHtml.replace(regex, '').trim();
+  }
+
   return (
     <div 
       className="fixed inset-0 z-50 overflow-y-auto bg-black/60 flex items-start justify-center p-0 sm:p-4 md:p-8"
@@ -74,15 +82,20 @@ export default function PostModal({ post, onClose, onSelectPost, allPosts }) {
             <h1 className="text-2xl sm:text-4xl font-extrabold text-gray-900 font-['Montserrat'] tracking-tight leading-tight mb-3">
               {post.title}
             </h1>
-            <div className="text-xs uppercase tracking-widest text-gray-400 font-semibold">
+            <div className="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-4">
               <time>{post.displayDate}</time>
             </div>
+            {post.description && (
+              <p className="text-base sm:text-lg text-gray-600 font-['Lato'] leading-relaxed pt-1">
+                {post.description}
+              </p>
+            )}
           </div>
 
           {/* Rendered HTML */}
           <div 
             className="article-prose"
-            dangerouslySetInnerHTML={{ __html: post.html }}
+            dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 
           {/* Tags & Share Footer */}
